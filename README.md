@@ -26,4 +26,11 @@ Prompts are all in english.
 
 Half of the contexts (and their questions) are in French, other half in English.
 
+
+### Installation
+
+You'll need python llama cpp but to be honest you can also easily reimplement the llm call to any other tool.
+
+Just run the python files and read the packages errors
+
 ## **FEEL FREE TO HELP ME ADDING PROMPTS AND CONTEXTS WITH EASY OR HARDS CHALLENGES FOR THE LLM**
