@@ -22,5 +22,8 @@ In this repo you'll find the folder `contexts` containing handmade very short ch
 
 `prompts` folder contains a series of prompts that performs good or bad depending on the model.
 
+Prompts are all in english.
 
-### FEEL FREE TO HELP ME ADDING PROMPTS AND CONTEXTS WITH EASY OR HARDS CHALLENGES FOR THE LLM
+Half of the contexts (and their questions) are in French, other half in English.
+
+## **FEEL FREE TO HELP ME ADDING PROMPTS AND CONTEXTS WITH EASY OR HARDS CHALLENGES FOR THE LLM**
