@@ -1,0 +1,69 @@
+﻿{
+    "context_name": "Obese",
+    "turns": [
+        {
+            "role": "user",
+            "content": "Quel est le pourcentage de personnes en surcharge corporelle aux \u00e9tats unis ?"
+        },
+        {
+            "role": "assistant",
+            "content": "Aux etats-unis, en 2018, 42.4% des adultes \u00e9taient en surcharge corporelle. Cela inclut 9.2% des adultes qui \u00e9taient ob\u00e8ses. Ces chiffres sont bas\u00e9s sur les donn\u00e9es de l'ann\u00e9e 2017."
+        }
+    ],
+    "questions": [
+        {
+            "question": "Et en France ?",
+            "expected": "Quel est le pourcentage de personnes en surcharge corporelle en France ?",
+            "required_text": "France"
+        },
+        {
+            "question": "Et en 2019 ?",
+            "expected": "Quel est le pourcentage de personnes en surcharge corporelle aux \u00e9tats unis en 2019 ?",
+            "required_text": "2019"
+        },
+        {
+            "question": "et pour ceux qui ne sont pas en surcharge corporelle ?",
+            "expected": "Quel est le pourcentage de personnes qui ne sont pas en surcharge corporelle aux \u00e9tats unis ?"
+        },
+        {
+            "question": "D\\o\u00f9 viennent ces donn\u00e9es ?",
+            "expected": "D\\o\u00f9 viennent les donn\u00e9es sur la surcharge corporelle aux \u00e9tats unis ?"
+        },
+        {
+            "question": "T'es s\u00fbr de \u00e7a ?",
+            "expected": "Es-tu s\u00fbr que 42.4% des adultes aux \u00e9tats unis, en 2018, \u00e9taient en surcharge corporelle ?"
+        },
+        {
+            "question": "D\u00e9taille moi \u00e7a",
+            "expected": "Peux-tu me donner plus de d\u00e9tails sur le pourcentage de personnes en surcharge corporelle aux \u00e9tats unis ?"
+        },
+        {
+            "question": "Qu'en est-il des enfants ?",
+            "expected": "Quel est le pourcentage d'enfants en surcharge corporelle aux \u00e9tats unis ?",
+            "required_text": [
+                "enfants",
+                "\u00e9tats"
+            ]
+        },
+        {
+            "question": "Et en Europe ?",
+            "expected": "Quel est le pourcentage de personnes en surcharge corporelle en Europe ?",
+            "required_text": "Europe"
+        },
+        {
+            "question": "Et en Asie ?",
+            "expected": "Quel est le pourcentage de personnes en surcharge corporelle en Asie ?",
+            "required_text": "Asie"
+        },
+        {
+            "question": "Et l'ann\u00e9e suivante ?",
+            "expected": "Quel est le pourcentage de personnes en surcharge corporelle aux \u00e9tats unis en 2018 ?",
+            "required_text": "2018"
+        },
+        {
+            "question": "L'ann\u00e9e suivante ?",
+            "expected": "Quel est le pourcentage de personnes en surcharge corporelle aux \u00e9tats unis en 2018 ?",
+            "required_text": "2018"
+        }
+    ]
+}

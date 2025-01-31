@@ -1,0 +1,3 @@
+﻿Given the conversation history and the question "{question}", resolve any ambiguous references in it by replacing the ambiguous reference by the explicit references it if need.
+If you don't find any ambiguous reference, just repeat it.
+Just write the question with the fixed ambiguous references, nothing else.

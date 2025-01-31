@@ -1,0 +1,134 @@
+﻿{
+    "context_name": "Orano",
+    "turns": [
+        {
+            "role": "user",
+            "content": "Qui est le patron de Orano ?"
+        },
+        {
+            "role": "assistant",
+            "content": "Selon le texte fourni, le patron de Orano est Philippe Knoche. Cette information est tir\u00e9e de la section \"Engag\u00e9s pour l'avenir de la soci\u00e9t\u00e9\", o\u00f9 il est mentionn\u00e9 qu'il a \u00e9t\u00e9 nomm\u00e9 Directeur g\u00e9n\u00e9ral d'Orano depuis 2018. Bien que certains \u00e9l\u00e9ments sugg\u00e8rent l'existence de postes importants tels ceux occup\u00e9s par Pascal Aubret (Directeur de la BU Recyclage et du site Orano la Hague), seul le nom de Philippe Knoche est associ\u00e9 au poste de Directeur g\u00e9n\u00e9ral, ce qui implique qu'il est le patron de l'entreprise."
+        },
+        {
+            "role": "user",
+            "content": "O\u00f9 a-t-il fait ses \u00e9tudes ?"
+        },
+        {
+            "role": "assistant",
+            "content": "Selon le texte donn\u00e9, Philippe Knoche est dipl\u00f4m\u00e9 de l'\u00c9cole polytechnique et du Corps des Mines. Aucune information pr\u00e9cise n'est fournie concernant o\u00f9 il a fait ses \u00e9tudes primaires ou secondaires. Donc, avec les informations disponibles, on ne peut pas d\u00e9terminer exactement o\u00f9 Philippe Knoche a fait ses \u00e9tudes pr\u00e9liminaires."
+        }
+    ],
+    "questions": [
+        {
+            "question": "O\u00f9 est-elle implant\u00e9e ?",
+            "expected": "O\u00f9 Orano est-elle implant\u00e9e ?",
+            "required_text": "orano"
+        },
+        {
+            "question": "A-t-il une femme ?",
+            "expected": "Philippe Knoche a-t-il une femme ?",
+            "required_text": "knoche"
+        },
+        {
+            "question": "A-t-il de la famille ?",
+            "expected": "Philippe Knoche a-t-il de la famille ?",
+            "required_text": "knoche"
+        },
+        {
+            "question": "O\u00f9 a-t-il grandi ?",
+            "expected": "O\u00f9 Philippe Knoche a-t-il grandi ?",
+            "required_text": "knoche"
+        },
+        {
+            "question": "O\u00f9 est son si\u00e8ge social ?",
+            "expected": "O\u00f9 est le si\u00e8ge social de Orano ?",
+            "required_text": "orano"
+        },
+        {
+            "question": "Quel est son chiffre d'affaires ?",
+            "expected": "Quel est le chiffre d'affaires de Orano ?",
+            "required_text": [
+                "orano",
+                "chiffre"
+            ]
+        },
+        {
+            "question": "Quels sont ses principaux march\u00e9s ?",
+            "expected": "Quels sont les principaux march\u00e9s de Orano ?",
+            "required_text": [
+                "orano",
+                "march\u00e9s"
+            ]
+        },
+        {
+            "question": "Depuis quand est-il directeur g\u00e9n\u00e9ral ?",
+            "expected": "Depuis quand Philippe Knoche est-il directeur g\u00e9n\u00e9ral d'Orano?",
+            "required_text": [
+                "orano",
+                "knoche",
+                "directeur"
+            ]
+        },
+        {
+            "question": "Quelle est sa formation acad\u00e9mique ?",
+            "expected": "Quelle est la formation acad\u00e9mique de Philippe Knoche ?",
+            "required_text": [
+                "formation",
+                "knoche"
+            ]
+        },
+        {
+            "question": "Quelle est la mission de l'entreprise ?",
+            "expected": "Quelle est la mission de Orano ?",
+            "required_text": "orano"
+        },
+        {
+            "question": "Quel a \u00e9t\u00e9 son parcours professionnel avant ce poste ?",
+            "expected": "Quel a \u00e9t\u00e9 le parcours professionnel de Philippe Knoche avant d'\u00eatre directeur g\u00e9n\u00e9ral d'Orano ?",
+            "required_text": "orano"
+        },
+        {
+            "question": "Qui bosse sous ses ordres ?",
+            "expected": "Qui bosse sous les ordres de Philippe Knoche ?"
+        },
+        {
+            "question": "Quelle est la r\u00e9putation de ces \u00e9coles ?",
+            "expected": "Quelle est la r\u00e9putation de l'\u00c9cole polytechnique et du Corps des Mines ?",
+            "required_text": [
+                "polytechnique",
+                "mines"
+            ]
+        },
+        {
+            "question": "A-t-il des enfants ?",
+            "expected": "Philippe Knoche a-t-il des enfants ?"
+        },
+        {
+            "question": "Quel est son salaire ?",
+            "expected": "Quel est le salaire de Philippe Knoche ?"
+        },
+        {
+            "question": "et sa femme ?",
+            "expected": "O\u00f9 es-ce que la femme de philippe knoche a-t-elle fait ses \u00e9tudes ?",
+            "required_text": [
+                "femme",
+                "knoche"
+            ]
+        },
+        {
+            "question": "Quel \u00e2ge a-t-il ?",
+            "expected": "Quel \u00e2ge a Philippe Knoche ?",
+            "required_text": "knoche"
+        },
+        {
+            "question": "Quelle est sa nationalit\u00e9 ?",
+            "expected": "Quelle est la nationalit\u00e9 de Philippe Knoche ?",
+            "required_text": "knoche"
+        },
+        {
+            "question": "O\u00f9 habite-t-il actuellement ?",
+            "expected": "O\u00f9 habite actuellement Philippe Knoche ?",
+            "required_text": "knoche"
+        }
+    ]
+}

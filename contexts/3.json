@@ -1,0 +1,148 @@
+﻿{
+    "context_name": "ClimateChange",
+    "turns": [
+        {
+            "role": "user",
+            "content": "What is the current global temperature increase compared to pre-industrial levels?"
+        },
+        {
+            "role": "assistant",
+            "content": "As of 2023, global temperatures have increased by approximately 1.2\u00b0C compared to pre-industrial levels (1850-1900). This warming has accelerated in recent decades, with the last decade (2014-2023) being the warmest on record. Scientists measure this using a combination of land and ocean temperature data."
+        },
+        {
+            "role": "user",
+            "content": "What are the main causes?"
+        },
+        {
+            "role": "assistant",
+            "content": "The main cause of global warming is the increase in greenhouse gas emissions, particularly CO2, which has risen from 280 parts per million (ppm) in pre-industrial times to over 410 ppm in 2023. About 75% of these emissions come from burning fossil fuels for energy and transportation, while deforestation and industrial processes account for most of the remainder."
+        }
+    ],
+    "questions": [
+        {
+            "question": "What about sea levels?",
+            "expected": "How much have global sea levels risen compared to pre-industrial levels?",
+            "required_text": [
+                "sea",
+                "levels",
+                "global"
+            ]
+        },
+        {
+            "question": "Which regions are most affected?",
+            "expected": "Which regions are experiencing the highest temperature increases compared to pre-industrial levels?",
+            "required_text": [
+                "temperature",
+                "regions"
+            ]
+        },
+        {
+            "question": "What about methane?",
+            "expected": "How much have methane levels increased compared to pre-industrial levels?",
+            "required_text": [
+                "methane",
+                "levels"
+            ]
+        },
+        {
+            "question": "Impact on wildlife?",
+            "expected": "How is the global temperature increase affecting wildlife?",
+            "required_text": [
+                "temperature",
+                "wildlife"
+            ]
+        },
+        {
+            "question": "Worst case scenario?",
+            "expected": "What is the projected worst case scenario for global temperature increase by 2100?",
+            "required_text": [
+                "temperature",
+                "2100"
+            ]
+        },
+        {
+            "question": "Can we reverse it?",
+            "expected": "Can we reverse the global temperature increase to pre-industrial levels?",
+            "required_text": [
+                "temperature",
+                "reverse"
+            ]
+        },
+        {
+            "question": "What about the poles?",
+            "expected": "How are the polar regions affected by the global temperature increase?",
+            "required_text": [
+                "polar",
+                "temperature"
+            ]
+        },
+        {
+            "question": "Rate of change?",
+            "expected": "What is the current rate of global temperature increase per decade?",
+            "required_text": [
+                "temperature",
+                "rate",
+                "decade"
+            ]
+        },
+        {
+            "question": "Most polluting activities?",
+            "expected": "Which human activities contribute the most to greenhouse gas emissions?",
+            "required_text": [
+                "emissions",
+                "activities"
+            ]
+        },
+        {
+            "question": "Natural causes?",
+            "expected": "What natural factors contribute to global temperature changes?",
+            "required_text": [
+                "temperature",
+                "natural"
+            ]
+        },
+        {
+            "question": "Historical patterns?",
+            "expected": "What were the patterns of global temperature change before industrial times?",
+            "required_text": [
+                "temperature",
+                "patterns",
+                "before"
+            ]
+        },
+        {
+            "question": "Coral reefs?",
+            "expected": "How is the global temperature increase affecting coral reefs?",
+            "required_text": [
+                "temperature",
+                "coral"
+            ]
+        },
+        {
+            "question": "Agriculture impact?",
+            "expected": "How does the global temperature increase affect agricultural production?",
+            "required_text": [
+                "temperature",
+                "agricultural"
+            ]
+        },
+        {
+            "question": "Coastal cities?",
+            "expected": "How are coastal cities affected by the temperature-induced sea level rise?",
+            "required_text": [
+                "coastal",
+                "sea",
+                "level"
+            ]
+        },
+        {
+            "question": "Economic cost?",
+            "expected": "What is the estimated economic cost of the global temperature increase?",
+            "required_text": [
+                "economic",
+                "cost",
+                "temperature"
+            ]
+        }
+    ]
+}

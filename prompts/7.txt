@@ -1,0 +1,19 @@
+﻿Your task is to rewrite the question "{question}" by resolving all ambiguous references using the conversation history.
+
+## **Steps**:
+1. **Identify Ambiguous References**:
+   - Look for pronouns, demonstratives, or references that lack clarity.
+   - If no ambiguity is found, repeat the question exactly as is.
+
+2. **Find the Correct Referents**:
+   - Use the most relevant and recent mention from the conversation history.
+   - If multiple options exist, prioritize the most semantically relevant one.
+
+3. **Rewrite the Question**:
+   - Replace ambiguous references with explicit entities or concepts.
+   - Ensure correct grammar and a natural flow.
+   - Preserve the original intent and phrasing structure.
+
+## **Output Format**:
+- **Return only the rewritten question**.
+- **Do not add explanations, metadata, or formatting**.

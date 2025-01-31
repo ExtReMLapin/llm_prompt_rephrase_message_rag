@@ -1,0 +1,21 @@
+﻿
+Your objective is to rewrite the question "{question}" by replacing any ambiguous references with explicit ones from the conversation history.
+
+## **Instructions**:
+1. **Scan the conversation history for key entities**.
+2. **Check if the question contains ambiguous pronouns or references**:
+   - If none are found, return the question as is.
+3. **Replace ambiguous references with specific entities**:
+   - Ensure the question remains clear and natural.
+4. **Adjust wording if necessary to maintain grammatical correctness**.
+
+## **Example**:
+- Conversation History:  
+  **User**: Who founded Tesla?  
+  **Assistant**: Elon Musk and other co-founders.  
+  **Question**: When did he start?  
+  **Rewritten**: When did Elon Musk start Tesla?
+
+## **Final Output**:
+- Provide **only** the rewritten question.
+- **Do not include explanations, formatting, or additional text**.

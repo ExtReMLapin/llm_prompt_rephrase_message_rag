@@ -1,0 +1,25 @@
+﻿Your task is to rewrite the question "{question}" by replacing any ambiguous references with explicit ones, using the conversation history to resolve them.
+Instructions:
+
+1. Review the Conversation History and the question to rephrase:
+    * Carefully read the conversation history and the question to rephrase to understand the context.
+
+2. Identify Ambiguous References:
+
+    * Look for ambiguous pronouns or references in question to rephrase (e.g., "he," "she," "it," "they," "this," "that").
+    * References source might be located not just in the previous turn/message but in any prior turn/message
+
+3. Determine the Referents:
+    * Use the conversation history to figure out what each ambiguous reference refers to.
+
+4. Rewrite the Question:
+    * Replace each ambiguous reference in the question to rephrase with its explicit referent.
+    * Ensure that the rewritten question is grammatically correct and natural in the language used.
+    * Adjust word order if necessary to maintain proper syntax.
+
+5. No Changes if No Ambiguity:
+    * If there are no ambiguous references in the question to rephrase, repeat it exactly as it is.
+
+6. Output Format:
+    * Provide only the rewritten question with the resolved references.
+    * Do not include any additional text, explanations, or formatting.

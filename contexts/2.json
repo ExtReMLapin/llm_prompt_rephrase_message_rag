@@ -1,0 +1,159 @@
+﻿{
+    "context_name": "Tesla",
+    "turns": [
+        {
+            "role": "user",
+            "content": "What was Tesla's market value in 2023?"
+        },
+        {
+            "role": "assistant",
+            "content": "Tesla's market capitalization reached approximately $850 billion in 2023, making it one of the most valuable automotive companies in the world. This valuation was influenced by various factors including their electric vehicle sales, technology advancements, and future growth prospects."
+        },
+        {
+            "role": "user",
+            "content": "How many cars did they produce?"
+        },
+        {
+            "role": "assistant",
+            "content": "In 2023, Tesla produced about 1.8 million vehicles across all their models, with the Model Y and Model 3 accounting for the majority of production. Their main factories are located in Fremont, Shanghai, Berlin, and Texas."
+        }
+    ],
+    "questions": [
+        {
+            "question": "What about Toyota's market value?",
+            "expected": "What was Toyota's market value in 2023?",
+            "required_text": [
+                "Toyota",
+                "market",
+                "2023"
+            ]
+        },
+        {
+            "question": "Compare it with Ford",
+            "expected": "How does Tesla's market value in 2023 compare with Ford's market value?",
+            "required_text": [
+                "Tesla",
+                "Ford",
+                "market",
+                "value"
+            ]
+        },
+        {
+            "question": "Why such a high value?",
+            "expected": "Why was Tesla's market value so high in 2023?",
+            "required_text": [
+                "Tesla",
+                "market",
+                "value",
+                "2023"
+            ]
+        },
+        {
+            "question": "What about Toyota's production?",
+            "expected": "How many cars did Toyota produce in 2023?",
+            "required_text": [
+                "Toyota",
+                "produce",
+                "2023"
+            ]
+        },
+        {
+            "question": "Which models sell the most?",
+            "expected": "Which Tesla models had the highest sales in 2023?",
+            "required_text": [
+                "Tesla",
+                "models",
+                "2023"
+            ]
+        },
+        {
+            "question": "What about their European numbers?",
+            "expected": "How many cars did Tesla produce in Europe in 2023?",
+            "required_text": [
+                "Tesla",
+                "Europe",
+                "2023"
+            ]
+        },
+        {
+            "question": "Tell me about Shanghai",
+            "expected": "What is the production capacity of Tesla's Shanghai factory?",
+            "required_text": [
+                "Tesla",
+                "Shanghai",
+                "factory"
+            ]
+        },
+        {
+            "question": "Compare the factories",
+            "expected": "How does the production capacity compare between Tesla's different factories?",
+            "required_text": [
+                "Tesla",
+                "factories",
+                "production"
+            ]
+        },
+        {
+            "question": "What about Q4?",
+            "expected": "What was Tesla's production number in Q4 2023?",
+            "required_text": [
+                "Tesla",
+                "Q4",
+                "2023"
+            ]
+        },
+        {
+            "question": "First half results?",
+            "expected": "What was Tesla's production number in the first half of 2023?",
+            "required_text": [
+                "Tesla",
+                "2023"
+            ]
+        },
+        {
+            "question": "What batteries do they use?",
+            "expected": "What type of batteries does Tesla use in their vehicles?",
+            "required_text": [
+                "Tesla",
+                "batteries"
+            ]
+        },
+        {
+            "question": "Battery suppliers?",
+            "expected": "Who are Tesla's battery suppliers?",
+            "required_text": [
+                "Tesla",
+                "battery",
+                "suppliers"
+            ]
+        },
+        {
+            "question": "Main competitors?",
+            "expected": "Who were Tesla's main competitors in the electric vehicle market in 2023?",
+            "required_text": [
+                "Tesla",
+                "competitors",
+                "2023"
+            ]
+        },
+        {
+            "question": "Market share in China?",
+            "expected": "What was Tesla's market share in China's electric vehicle market in 2023?",
+            "required_text": [
+                "Tesla",
+                "China",
+                "2023"
+            ]
+        },
+        {
+            "question": "Chinese competitors?",
+            "expected": "Who were Tesla's main competitors in China's electric vehicle market in 2023?",
+            "required_text": [
+                "Tesla",
+                "China",
+                "competitors",
+                "2023"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+﻿
+Your job is to **rewrite** the question "{question}" by ensuring it is fully self-contained and unambiguous.
+
+## **How to Process**:
+1. **Check for ambiguous references** such as pronouns, demonstratives, or implicit subjects.
+2. **Identify the missing referent** in the conversation history.
+3. **Rewrite the question using explicit terms** without losing its meaning.
+4. **Maintain natural phrasing** for the language.
+
+## **Example**:
+- **Before**: "Where did he study?"
+- **After**: "Where did Philippe Knoche study?"
+
+### **Output Rules**:
+- **Return only the rewritten question**.
+- **Do not add any explanation, preface, or extra text**.

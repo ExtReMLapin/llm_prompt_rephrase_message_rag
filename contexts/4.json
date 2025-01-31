@@ -1,0 +1,103 @@
+﻿{
+    "context_name": "MovieReviews",
+    "turns": [
+        {
+            "role": "user",
+            "content": "What did critics say about Oppenheimer when it was released?"
+        },
+        {
+            "role": "assistant",
+            "content": "Oppenheimer received widespread critical acclaim upon its July 2023 release. Critics praised Christopher Nolan's direction, the performances (especially Cillian Murphy as J. Robert Oppenheimer), and the film's technical achievements. It maintains a 93% rating on Rotten Tomatoes, with reviewers particularly noting its complex narrative structure and historical accuracy."
+        },
+        {
+            "role": "user",
+            "content": "How much did it make at the box office?"
+        },
+        {
+            "role": "assistant",
+            "content": "The film grossed over $950 million worldwide at the box office, making it both the highest-grossing R-rated film of 2023 and Christopher Nolan's third highest-grossing film after The Dark Knight and The Dark Knight Rises. The domestic box office accounted for about $325 million of that total."
+        }
+    ],
+    "questions": [
+        {
+            "question": "Who directed his previous movies?",
+            "expected": "Who directed Christopher Nolan's previous movies?",
+            "required_text": [
+                "Nolan"
+            ]
+        },
+        {
+            "question": "What about opening weekend?",
+            "expected": "What was Oppenheimer's opening weekend box office revenue?",
+            "required_text": [
+                "Oppenheimer",
+                "opening"
+            ]
+        },
+        {
+            "question": "How does that compare to Barbie?",
+            "expected": "How does Oppenheimer's box office revenue compare to Barbie's box office revenue?",
+            "required_text": [
+                "Oppenheimer",
+                "Barbie",
+                "box office"
+            ]
+        },
+        {
+            "question": "Did they like his performance better than the others?",
+            "expected": "Did critics like Cillian Murphy's performance in Oppenheimer better than the other actors' performances?",
+            "required_text": [
+                "Murphy",
+                "performance"
+            ]
+        },
+        {
+            "question": "What about the sequel?",
+            "expected": "Is there a sequel planned for Oppenheimer?",
+            "required_text": [
+                "Oppenheimer",
+                "sequel"
+            ]
+        },
+        {
+            "question": "Other movies by the actor?",
+            "expected": "What other movies has Cillian Murphy acted in?",
+            "required_text": [
+                "Cillian Murphy"
+            ]
+        },
+        {
+            "question": "International numbers?",
+            "expected": "What was Oppenheimer's international box office revenue?",
+            "required_text": [
+                "Oppenheimer",
+                "international"
+            ]
+        },
+        {
+            "question": "Before this one?",
+            "expected": "What movie did Christopher Nolan direct before Oppenheimer?",
+            "required_text": [
+                "Nolan",
+                "before",
+                "Oppenheimer"
+            ]
+        },
+        {
+            "question": "Other summer releases?",
+            "expected": "What other movies were released in summer 2023?",
+            "required_text": [
+                "2023",
+                "summer"
+            ]
+        },
+        {
+            "question": "Runtime compared to his others?",
+            "expected": "How does Oppenheimer's runtime compare to Christopher Nolan's other movies?",
+            "required_text": [
+                "Oppenheimer",
+                "Nolan"
+            ]
+        }
+    ]
+}

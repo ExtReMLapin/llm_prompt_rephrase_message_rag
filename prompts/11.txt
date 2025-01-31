@@ -1,0 +1,13 @@
+﻿
+You are tasked with rewriting the question "{question}" by replacing any ambiguous references with explicit terms from the conversation history.
+
+## **Instructions**:
+1. **Identify ambiguous references** such as pronouns or vague terms.
+2. **Use the conversation history to determine the correct referents**.
+3. **Replace ambiguous references while preserving the original intent**.
+4. **Ensure grammatical correctness and natural phrasing**.
+5. **If no ambiguity exists, return the question unchanged**.
+
+### **Output Format**:
+- Return **only** the reformulated question.
+- **Do not include explanations, formatting, or metadata**.

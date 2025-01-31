@@ -1,0 +1,133 @@
+﻿{
+    "context_name": "FootballFrance",
+    "turns": [
+        {
+            "role": "user",
+            "content": "Comment s'est pass\u00e9e la derni\u00e8re Coupe du Monde pour l'\u00e9quipe de France?"
+        },
+        {
+            "role": "assistant",
+            "content": "L'\u00e9quipe de France a atteint la finale de la Coupe du Monde 2022 au Qatar, mais s'est inclin\u00e9e aux tirs au but face \u00e0 l'Argentine. Kylian Mbapp\u00e9 a \u00e9t\u00e9 remarquable durant la comp\u00e9tition, notamment en finale o\u00f9 il a marqu\u00e9 un tripl\u00e9. L'\u00e9quipe a montr\u00e9 un excellent niveau de jeu malgr\u00e9 plusieurs absences importantes comme celle de Karim Benzema."
+        },
+        {
+            "role": "user",
+            "content": "Combien de buts Mbapp\u00e9 a-t-il marqu\u00e9 durant le tournoi?"
+        },
+        {
+            "role": "assistant",
+            "content": "Kylian Mbapp\u00e9 a marqu\u00e9 8 buts durant la Coupe du Monde 2022, devenant ainsi le meilleur buteur de la comp\u00e9tition. Il a notamment inscrit un tripl\u00e9 en finale contre l'Argentine et un doubl\u00e9 en huiti\u00e8mes de finale contre la Pologne."
+        }
+    ],
+    "questions": [
+        {
+            "question": "Et elle, combien en a-t-elle marqu\u00e9?",
+            "expected": "Et l'Argentine, combien de buts a-t-elle marqu\u00e9 durant la Coupe du Monde 2022?",
+            "required_text": [
+                "Argentine",
+                "buts"
+            ]
+        },
+        {
+            "question": "Son palmar\u00e8s?",
+            "expected": "Quel est le palmar\u00e8s de Kylian Mbapp\u00e9?",
+            "required_text": [
+                "Mbapp\u00e9",
+                "palmar\u00e8s"
+            ]
+        },
+        {
+            "question": "Cette finale \u00e9tait-elle la meilleure?",
+            "expected": "La finale de la Coupe du Monde 2022 \u00e9tait-elle la meilleure finale de l'histoire?",
+            "required_text": [
+                "finale",
+                "2022"
+            ]
+        },
+        {
+            "question": "Et la pr\u00e9c\u00e9dente?",
+            "expected": "Comment s'est pass\u00e9e la Coupe du Monde 2018 pour l'\u00e9quipe de France?",
+            "required_text": [
+                "France",
+                "2018"
+            ]
+        },
+        {
+            "question": "Les autres joueurs ont-ils aussi bien jou\u00e9 que lui?",
+            "expected": "Les autres joueurs de l'\u00e9quipe de France ont-ils aussi bien jou\u00e9 que Kylian Mbapp\u00e9 durant la Coupe du Monde 2022?",
+            "required_text": [
+                "France",
+                "Mbapp\u00e9"
+            ]
+        },
+        {
+            "question": "Comment se compare-t-il \u00e0 Platini?",
+            "expected": "Comment se compare le parcours de Kylian Mbapp\u00e9 \u00e0 celui de Michel Platini en \u00e9quipe de France?",
+            "required_text": [
+                "Mbapp\u00e9",
+                "Platini"
+            ]
+        },
+        {
+            "question": "Que pense le s\u00e9lectionneur?",
+            "expected": "Que pense Didier Deschamps des performances de l'\u00e9quipe de France \u00e0 la Coupe du Monde 2022?",
+            "required_text": [
+                "Deschamps",
+                "France"
+            ]
+        },
+        {
+            "question": "Et les matchs \u00e0 domicile?",
+            "expected": "Quels sont les r\u00e9sultats de l'\u00e9quipe de France lors des matchs jou\u00e9s en France?",
+            "required_text": [
+                "France",
+                "matchs"
+            ]
+        },
+        {
+            "question": "Ces statistiques sont-elles record?",
+            "expected": "Les 8 buts marqu\u00e9s par Kylian Mbapp\u00e9 en Coupe du Monde 2022 constituent-ils un record?",
+            "required_text": [
+                "Mbapp\u00e9",
+                "buts"
+            ]
+        },
+        {
+            "question": "Le prochain match?",
+            "expected": "Quel est le prochain match de l'\u00e9quipe de France?",
+            "required_text": [
+                "France",
+                "match"
+            ]
+        },
+        {
+            "question": "Et l'Euro?",
+            "expected": "Comment s'est pass\u00e9 le dernier Euro pour l'\u00e9quipe de France?",
+            "required_text": [
+                "France",
+                "Euro"
+            ]
+        },
+        {
+            "question": "Sa meilleure performance?",
+            "expected": "Quelle est la meilleure performance de Kylian Mbapp\u00e9 en \u00e9quipe de France?",
+            "required_text": [
+                "Mbapp\u00e9"
+            ]
+        },
+        {
+            "question": "Contre qui a-t-il marqu\u00e9?",
+            "expected": "Contre quelles \u00e9quipes Kylian Mbapp\u00e9 a-t-il marqu\u00e9 durant la Coupe du Monde 2022?",
+            "required_text": [
+                "Mbapp\u00e9"
+            ]
+        },
+        {
+            "question": "Les autres titres?",
+            "expected": "Quels autres titres l'\u00e9quipe de France a-t-elle remport\u00e9s?",
+            "required_text": [
+                "France",
+                "titres"
+            ]
+        }
+    ]
+}
