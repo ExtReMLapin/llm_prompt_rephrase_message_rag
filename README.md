@@ -33,4 +33,18 @@ You'll need python llama cpp but to be honest you can also easily reimplement th
 
 Just run the python files and read the packages errors
 
+
+### Usage
+
+use rephrase.py to run the bruteforce thing benchmark, it will generate a `score.json` file then use `excell.py` to generate a `model_scores_comparison_3.xlsx` file.
+
+You can run it multiple times, prompts are cached in a pkl file.
+
+xlsx file looks like this (you'll have to make your own graph)
+
+
+![image](https://github.com/user-attachments/assets/cb331134-d435-4cee-a376-0a7e5479e420)
+
+
+
 ## **FEEL FREE TO HELP ME ADDING PROMPTS AND CONTEXTS WITH EASY OR HARDS CHALLENGES FOR THE LLM**
